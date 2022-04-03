@@ -5,12 +5,12 @@ cidr_block_vpc = {
 
 cidr_block_subnet_1 = {
   cidr_block = "10.0.10.0/24"
-  name = "terraform-subnet"
+  name = "terraform-subnet-1"
 }
 
 cidr_block_subnet_2 = {
   cidr_block = "10.0.20.0/24"
-  name = "terraform-subnet"
+  name = "terraform-subnet1-2"
 }
 
 

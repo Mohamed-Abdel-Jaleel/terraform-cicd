@@ -1,3 +1,11 @@
+terraform {
+    backend "s3" {
+        region = "us-east-1"
+        key = "statefile"
+        bucket = "terraform-bucket-try"
+    }
+} 
+
 resource "aws_vpc" "terraform-vpc" {
   cidr_block = var.cidr_block_vpc.cidr_block
   tags = {
@@ -66,3 +74,4 @@ resource "aws_security_group" "terraform-security-group" {
     "Name" = "terraform-security-group"
   }
 }
+

@@ -66,9 +66,3 @@ resource "aws_security_group" "terraform-security-group" {
       "Name" = "terraform-security-group"
     }
 }
-
-# resource "aws_key_pair" "terraform-key-pair" {
-#     key_name = "terraform-key-pair"
-#     public_key = file(var.public_key_location)
-# }
-

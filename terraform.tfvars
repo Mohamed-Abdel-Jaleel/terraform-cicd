@@ -15,6 +15,3 @@ cidr_block_subnet_2 = {
 
 
 availability_zone = "us-east-1a"
-
-private_key_location = "/home/galileo/.ssh/id_rsa"
-public_key_location = "/home/galileo/.ssh/id_rsa.pub"
